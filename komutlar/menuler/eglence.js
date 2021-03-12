@@ -13,7 +13,7 @@ module.exports = {
 <:yakkothink:812669047010492417> | \`??wasted\` ► Profilinize wasted efekti eklenir.  
 <:yakkothink:812669047010492417> | \`??code\` ► Yazdığınız metni kodlar.
 <:yakkothink:812669047010492417> | \`??decode\` ► Yazdığınız kodlanmış metni çevirir.
-<:yakkothink:812669047010492417> | \`??reverse\` ► Yazdığınız metni tersten yazar. (kis yazmayın :D) 
+<:yakkothink:812669047010492417> | \`??reverse\` ► Yazdığınız metni tersten yazar.
 <:yakkothink:812669047010492417> | \`??emojiyaz\` ► Yazdığınız metni emojiler ile yazar.**}
 {thumbnail:$authorAvatar}
 {color:DARKBLUE}
