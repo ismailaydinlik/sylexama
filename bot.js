@@ -39,7 +39,7 @@ bot.variables({
     saas: "kapalı",
     otorolmsj: "Başarıyla rol verildi. Sunucumuza hoşgeldin.",
     otorolkanal: "",
-    hoşgeldinlanal: ""
+    hoşgeldinkanal: ""
   })
 
 bot.status({
