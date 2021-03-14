@@ -94,10 +94,4 @@ bot.joinCommand({
 Verilen Rol: <@&$getServerVar[otorol]>]$footer[Sylex Otorol Sistemi.;$authorAvatar]
 $suppressErrors[]`
 })
-bot.joinCommand({ 
-  channel: "$getServerVar[hoşgeldinkanal]", 
-  code: `<@$authorID>
-  $attachment[https://api.xzusfin.repl.co/card?avatar=$replaceText[$authorAvatar;webp;png]&middle=$username&name=HOŞGELDİN&bottom=İyi%20Eğlenceler&text=white&avatarborder=white&avatarbg=white&background=;hosgeldin.png]`
-})
-
 bot.onJoined() 
