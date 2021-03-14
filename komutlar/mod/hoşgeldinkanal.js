@@ -4,6 +4,5 @@ module.exports = {
     $setServerVar[hoşgeldinkanal;$mentionedChannels[1]]
     $onlyIf[$mentionedChannels[1]!=;]
     $onlyPerms[managechannels;]
-    $suppressErrors[]
 `
 }
