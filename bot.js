@@ -82,7 +82,7 @@ $suppressErrors[] `,
     name: "tepkirol",
     code: `
   $reactionCollector[$splitText[1];$authorID;24d;<:tik:820371469854703667>;tepkirol;yes]
-  $textSplit[$sendMessage[<@&$mentionedRoles[1]> rolüne sahip olmak için <:tik:820371469854703667> tepkisine tıklayınız.;yes]; ]
+  $textSplit[$sendMessage[{description:<@&$mentionedRoles[1]> rolüne sahip olmak için <:tik:820371469854703667> tepkisine tıklayınız.}{color:DARKBLUE}{title:$serverName}{footer:SyleX Tepki Rol Sistemi. 24 Günde Bir Değiştiriniz.}{thumbnail:$serverIcon};yes]; ]
  $onlyPerms[manageroles;]$onlyIf[$message!=;]
   $suppressErrors[]`
 })
@@ -94,10 +94,10 @@ bot.joinCommand({
 Verilen Rol: <@&$getServerVar[otorol]>]$footer[Sylex Otorol Sistemi.;$authorAvatar]
 $suppressErrors[]`
 })
-bot.onJoined() 
 bot.joinCommand({ 
   channel: "$getServerVar[hoşgeldinkanal]", 
   code: `<@$authorID>
-  $attachment[https://api.xzusfin.repl.co/card?avatar=$replaceText[$authorAvatar;webp;png]&middle=$username&name=HOŞGELDİN&bottom=İyi%20Eğlenceler&text=white&avatarborder=white&avatarbg=white&background=;hosgeldin.png]
-$suppressErrors[]`
+  $attachment[https://api.xzusfin.repl.co/card?avatar=$replaceText[$authorAvatar;webp;png]&middle=$username&name=HOŞGELDİN&bottom=İyi%20Eğlenceler&text=white&avatarborder=white&avatarbg=white&background=;hosgeldin.png]`
 })
+
+bot.onJoined() 
